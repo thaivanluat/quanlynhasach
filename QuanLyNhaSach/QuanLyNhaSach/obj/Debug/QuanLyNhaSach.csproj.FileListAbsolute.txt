@@ -1,0 +1,74 @@
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.pdb
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csprojResolveAssemblyReference.cache
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainMenu.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainWindow.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\App.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach_MarkupCompile.cache
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach_MarkupCompile.lref
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainMenu.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainWindow.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.g.resources
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Properties.Resources.resources
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.Cache
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\LapPhieuNhapSach.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\LapPhieuNhapSach.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTacGia.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTacGia.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLySach.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLySach.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTheLoai.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTheLoai.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyKhachHang.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyKhachHang.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyPhieuThu.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyPhieuThu.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyHoaDon.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyHoaDon.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoTon.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoTon.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoCongNo.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoCongNo.baml
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyDauSach.g.cs
+D:\Projects\CS\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyDauSach.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.exe
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\bin\Debug\QuanLyNhaSach.pdb
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csprojResolveAssemblyReference.cache
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoCongNo.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoTon.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\LapPhieuNhapSach.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyDauSach.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyHoaDon.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyKhachHang.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyPhieuThu.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLySach.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTacGia.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTheLoai.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainMenu.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainWindow.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\App.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach_MarkupCompile.cache
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach_MarkupCompile.lref
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoCongNo.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\BaoCaoTon.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\LapPhieuNhapSach.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyDauSach.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyHoaDon.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyKhachHang.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyPhieuThu.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLySach.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTacGia.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\QuanLyTheLoai.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainMenu.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\MainWindow.baml
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.g.resources
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.Properties.Resources.resources
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.GenerateResource.Cache
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.csproj.CoreCompileInputs.cache
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.exe
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\QuanLyNhaSach.pdb
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\ThayDoiQuyDinh.g.cs
+D:\Documents\UIT\Semester 2018 - 2019\Semester 1\Software Engineering\sql files\QuanLyNhaSach\QuanLyNhaSach\obj\Debug\FunctionWindows\ThayDoiQuyDinh.baml

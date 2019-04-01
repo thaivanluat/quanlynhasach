@@ -1,0 +1,36 @@
+﻿<Window x:Class="QuanLyNhaSach.FunctionWindows.ThayDoiQuyDinh"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyNhaSach.FunctionWindows"
+        mc:Ignorable="d"
+        Title="Thay đổi quy định" Height="500" Width="500" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="128,10,0,0" TextWrapping="Wrap" Text="THAY ĐỔI QUY ĐỊNH" VerticalAlignment="Top" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,87,0,0" TextWrapping="Wrap" Text="Số lượng nhập tối thiểu" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,136,0,0" TextWrapping="Wrap" Text="Số lượng tồn để nhập tối đa" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,185,0,0" TextWrapping="Wrap" Text="Tổng nợ tối đa" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,234,0,0" TextWrapping="Wrap" Text="Lượng tồn sau khi bán tối thiểu" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,283,0,0" TextWrapping="Wrap" Text="Cho phép số tiền thu vượt tổng nợ (0 = Không cho phép, 1 = Cho phép)" VerticalAlignment="Top" Width="184" Height="49"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,345,0,0" TextWrapping="Wrap" Text="Tỉ lệ tính đơn giá bán (%)" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxSoLuongNhapToiThieuMoi" HorizontalAlignment="Left" Height="23" Margin="211,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxSoLuongTonDeNhapToiDaMoi" HorizontalAlignment="Left" Height="23" Margin="211,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxTongNoToiDaMoi" HorizontalAlignment="Left" Height="23" Margin="211,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxLuongTonSauKhiBanToiThieuMoi" HorizontalAlignment="Left" Height="23" Margin="211,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxChoPhepSoTienThuVuotTongNoMoi" HorizontalAlignment="Left" Height="23" Margin="211,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBoxChoPhepSoTienThuVuotTongNoMoi_TextChanged"/>
+        <TextBox x:Name="textBoxTiLeTinhDonGiaBanMoi" HorizontalAlignment="Left" Height="23" Margin="211,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxSoLuongNhapToiThieuCu" HorizontalAlignment="Left" Height="23" Margin="336,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxSoLuongTonDeNhapToiDaCu" HorizontalAlignment="Left" Height="23" Margin="336,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxTongNoToiDaCu" HorizontalAlignment="Left" Height="23" Margin="336,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxLuongTonSauKhiBanToiThieuCu" HorizontalAlignment="Left" Height="23" Margin="336,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxChoPhepSoTienThuVuotTongNoCu" HorizontalAlignment="Left" Height="23" Margin="336,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBox x:Name="textBoxTiLeTinhDonGiaBanCu" HorizontalAlignment="Left" Height="23" Margin="336,344,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,68,0,0" TextWrapping="Wrap" Text="Giá trị mới" VerticalAlignment="Top" Foreground="#c0392b"/>
+        <TextBlock HorizontalAlignment="Left" Margin="370,68,0,0" TextWrapping="Wrap" Text="Giá trị cũ" VerticalAlignment="Top" Foreground="#c0392b"/>
+        <Button Content="Thoát" HorizontalAlignment="Left" Margin="381,400,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Cập nhật" HorizontalAlignment="Left" Margin="301,400,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,400,0,0" TextWrapping="Wrap" Text="Vui lòng để trống mục giá trị mới tương ứng nếu muốn giữ nguyên quy định" VerticalAlignment="Top" Foreground="#27ae60" Width="235"/>
+
+    </Grid>
+</Window>

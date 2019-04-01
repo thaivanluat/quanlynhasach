@@ -1,0 +1,65 @@
+﻿<Window x:Class="QuanLyNhaSach.FunctionWindows.BaoCaoCongNo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyNhaSach.FunctionWindows"
+        mc:Ignorable="d"
+        Title="Báo cáo công nợ" Height="500" Width="630" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <SolidColorBrush x:Key="clBr" Color="#ecf0f1" />
+    </Window.Resources>
+    <Grid Background="#FFECF0F1">
+        <ComboBox x:Name="comboBoxNam" HorizontalAlignment="Left" Margin="61,66,0,0" VerticalAlignment="Top" Width="70"/>
+        <ComboBox x:Name="comboBoxThang" HorizontalAlignment="Left" Margin="194,66,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBlock HorizontalAlignment="Left" Margin="219,10,0,0" TextWrapping="Wrap" Text="Báo cáo công nợ" VerticalAlignment="Top" Width="193" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="22,69,0,0" TextWrapping="Wrap" Text="Năm" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="146,69,0,0" TextWrapping="Wrap" Text="Tháng" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="330" Margin="10,103,0,0" VerticalAlignment="Top" Width="591" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã khách hàng" Binding="{Binding MaKhachHang}" IsReadOnly="True" Width="Auto">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Họ tên" Binding="{Binding HoTen}" IsReadOnly="True" Width="Auto">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Nợ đầu" Binding="{Binding NoDau}" IsReadOnly="True" Width="Auto">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Phát sinh" Binding="{Binding PhatSinh}" IsReadOnly="True" Width="Auto">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+                <DataGridTextColumn Header="Nợ cuối" Binding="{Binding NoCuoi}" IsReadOnly="True" Width="Auto">
+                    <DataGridTextColumn.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                        </Style>
+                    </DataGridTextColumn.CellStyle>
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Thoát" HorizontalAlignment="Left" Margin="526,438,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Xem" HorizontalAlignment="Left" Margin="262,66,0,0" VerticalAlignment="Top" Width="55" Height="22" Click="Button_Click_1"/>
+    </Grid>
+</Window>

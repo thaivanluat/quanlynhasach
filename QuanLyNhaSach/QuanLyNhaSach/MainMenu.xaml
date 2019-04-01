@@ -1,0 +1,47 @@
+﻿<Window x:Class="QuanLyNhaSach.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyNhaSach"
+        mc:Ignorable="d"
+        Title="Menu" ResizeMode="NoResize" Height="540" Width="880" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFECF0F1">
+        <StackPanel HorizontalAlignment="Left" Height="460" VerticalAlignment="Top" Width="260" Margin="20,20,0,0" Background="#FFE74C3C">
+            <StackPanel.Effect>
+                <DropShadowEffect/>
+            </StackPanel.Effect>
+            <TextBlock Margin="10" FontSize="25" FontWeight="Bold" Text="Sách" TextAlignment="Center" Foreground="White" FontFamily="Bahnschrift Light"/>
+            <Button x:Name="BtLapPhieuNhapSach" Margin="10,20,10,5" Height="60" Content="Lập phiếu nhập sách" Background="#FFC0392B" Foreground="White" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFC0392B" Click="Button_Click"/>
+            <Button x:Name="BtQuanLySach" Margin="10,5,10,5" Height="60" Content="Quản lý sách" Foreground="White" Background="#FFC0392B" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFC0392B" Click="Button_Click_3"/>
+            <Button x:Name="BtQuanLyDauSach" Margin="10,5,10,5" Height="60" Content="Quản lý đầu sách" Foreground="White" Background="#FFC0392B" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFC0392B" Click="Button_Click_7"/>
+            <Button x:Name="BtQuanLyTacGia" Margin="10,5,10,5" Height="60" Content="Quản lý tác giả" Foreground="White" Background="#FFC0392B" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFC0392B" Click="Button_Click_2"/>
+            <Button x:Name="BtQuanLyTheLoai" Margin="10,5,10,5" Height="60" Content="Quản lý thể loại" Foreground="White" Background="#FFC0392B" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFC0392B" Click="Button_Click_4"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="460" VerticalAlignment="Top" Width="260" Margin="300,20,0,0" Background="#FF3498DB">
+            <StackPanel.Effect>
+                <DropShadowEffect/>
+            </StackPanel.Effect>
+            <TextBlock Margin="10" FontSize="25" FontWeight="Bold" TextAlignment="Center" Foreground="White" FontFamily="Bahnschrift Light"><Run Text="Khách hàng"/></TextBlock>
+            <Button x:Name="BtQuanLyKhachHang" Margin="10,20,10,5" Height="60" Content="Quản lý khách hàng" Foreground="White" Background="#FF2980B9" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FF2980B9" Click="Button_Click_5"/>
+            <Button x:Name="BtQuanLyPhieuThu" Margin="10,5,10,5" Height="60" Content="Quản lý phiếu thu" Foreground="White" Background="#FF2980B9" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FF2980B9" Click="BtQuanLyPhieuThu_Click"/>
+            <Button x:Name="BtQuanLyHoaDon" Margin="10,5,10,5" Height="60" Content="Quản lý hóa đơn" Foreground="White" Background="#FF2980B9" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FF2980B9" Click="BtQuanLyHoaDon_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="220" VerticalAlignment="Top" Width="260" Margin="580,20,0,0" Background="#FF2ECC71">
+            <StackPanel.Effect>
+                <DropShadowEffect/>
+            </StackPanel.Effect>
+            <TextBlock Margin="10" FontSize="25" FontWeight="Bold" Text="Báo cáo" TextAlignment="Center" Foreground="White" FontFamily="Bahnschrift Light"/>
+            <Button x:Name="BtBaoCaoTon" Margin="10,20,10,5" Height="60" Content="Báo cáo tồn" Foreground="White" Background="#FF27AE60" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FF27AE60" Click="Button_Click_6"/>
+            <Button x:Name="BtBaoCaoCongNo" Margin="10,5,10,5" Height="60" Content="Báo cáo công nợ" Foreground="White" Background="#FF27AE60" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FF27AE60" Click="BtBaoCaoCongNo_Click"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="220" VerticalAlignment="Top" Width="260" Margin="580,260,0,0" Background="#FFE67E22">
+            <StackPanel.Effect>
+                <DropShadowEffect/>
+            </StackPanel.Effect>
+            <TextBlock Margin="10" FontSize="25" FontWeight="Bold" Text="Hệ thống" TextAlignment="Center" Foreground="White" FontFamily="Bahnschrift Light"/>
+            <Button x:Name="BtThayDoiQuyDinh" Margin="10,20,10,5" Height="60" Content="Thay đổi quy định" Foreground="White" Background="#FFD35400" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFD35400" Click="Button_Click_8"/>
+            <Button Margin="10,10,10,5" Height="60" Content="Đăng xuất" Foreground="White" Background="#FFD35400" FontFamily="Bahnschrift Light" FontSize="16" BorderBrush="#FFD35400" Click="Button_Click_1"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,91 @@
+﻿<Window x:Class="QuanLyNhaSach.FunctionWindows.QuanLyPhieuThu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLyNhaSach.FunctionWindows"
+        mc:Ignorable="d"
+        Title="Quản lý phiếu thu" Height="450" Width="630" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <SolidColorBrush x:Key="clBr" Color="#ecf0f1" />
+    </Window.Resources>
+    <Grid Background="#FFECF0F1">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="QUẢN LÝ PHIẾU THU" VerticalAlignment="Top" FontSize="24" Margin="232,0,0,0"/>
+        <TabControl HorizontalAlignment="Left" Height="347" VerticalAlignment="Top" Width="608" Margin="10,37,0,0">
+            <TabItem Header="Lập phiếu thu">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="167*"/>
+                        <ColumnDefinition Width="436*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Mã khách hàng" VerticalAlignment="Top" Margin="130,10,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="textBoxMaKhachHang" HorizontalAlignment="Left" Height="23" Margin="113.4,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Ngày lập phiếu thu" VerticalAlignment="Top" Margin="130,44,0,0" Grid.ColumnSpan="2"/>
+                    <DatePicker x:Name="datePicker" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="113.4,38,0,0" Width="179" FontSize="14" Text="Chọn ngày nhập" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Số tiền thu" VerticalAlignment="Top" Margin="130,71,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="textBoxSoTienThu" HorizontalAlignment="Left" Height="23" Margin="113.4,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Họ tên khách hàng" VerticalAlignment="Top" Margin="130,99,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="textBoxHoTen" HorizontalAlignment="Left" Height="23" Margin="113.4,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" IsEnabled="False" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Điện thoại" VerticalAlignment="Top" Margin="130,127,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="textBoxDienThoai" HorizontalAlignment="Left" Height="23" Margin="113.4,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" IsEnabled="False" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Địa chỉ" VerticalAlignment="Top" Margin="130,155,0,0"/>
+                    <TextBox x:Name="textBoxDiaChi" HorizontalAlignment="Left" Height="47" Margin="113.4,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" IsEnabled="False" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Margin="130,207,0,0"/>
+                    <TextBox x:Name="textBoxEmail" HorizontalAlignment="Left" Height="23" Margin="113.4,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" IsEnabled="False" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Tổng nợ" VerticalAlignment="Top" Margin="130,235,0,0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="textBoxTongNo"  HorizontalAlignment="Left" Height="23" Margin="113.4,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179" IsEnabled="False" Grid.Column="1"/>
+                    <Button Content="Lập phiếu thu" HorizontalAlignment="Left" Margin="113.8,287,0,0" VerticalAlignment="Top" Width="84" Grid.Column="1" Click="Button_Click_1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Danh sách phiếu thu">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="58*"/>
+                        <ColumnDefinition Width="545*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="285" VerticalAlignment="Top" Width="592" Grid.ColumnSpan="2" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" CanUserAddRows="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Mã phiếu thu" Binding="{Binding MaPhieuThu}" IsReadOnly="True" Width="Auto">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Mã khách hàng" Binding="{Binding MaKhachHang}" IsReadOnly="True" Width="Auto">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Ngày lập" Binding="{Binding NgayLap}" IsReadOnly="True" Width="Auto">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Số tiền thu" Binding="{Binding SoTienThu}" IsReadOnly="True" Width="Auto">
+                                <DataGridTextColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Setter Property="Background" 
+                                Value="{StaticResource clBr}" />
+                                    </Style>
+                                </DataGridTextColumn.CellStyle>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="BtTaiPhieuThu" Content="Tải phiếu thu" HorizontalAlignment="Left" Margin="196.2,290,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" Grid.Column="1"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Button Content="Thoát" HorizontalAlignment="Left" Margin="521,389,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <TextBlock x:Name="textBlockQuyDinh" HorizontalAlignment="Left" Margin="10,392,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Foreground="#FFF42F2F"/>
+
+
+    </Grid>
+</Window>
